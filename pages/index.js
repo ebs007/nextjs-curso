@@ -1,4 +1,4 @@
-import HomeScreen from '/home/erick/www/alura/nextjs-curso/src/components/screens/HomeScreen'
+import HomeScreen from '../src/components/screens/HomeScreen'
 
 export default HomeScreen
 
