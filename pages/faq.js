@@ -1,7 +1,5 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import PageTitle from '../src/components/pattens/PageTitle'
-
+import FAQScreen from '../src/components/screens/FaqScreen/FAQScreen'
+export default FAQScreen
 // getServerSideProps - Sempre roda a acada acesso
 // getStaticProps - Só roda uma vez
 export async function getStaticProps() {
@@ -23,22 +21,22 @@ export async function getStaticProps() {
     }
 }
 
-export default function FAQPage({ faq }) {
-    return (
-        <>
-            <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
-            <h1>Alura Cases - Páginas de perguntas</h1>
-            <Link href='/'>Ir para home</Link>
-            <ul>
-                {faq.map(({ answer, question }) => (
-                    <li key={question}>
-                        <article>
-                            <h2>{question}</h2>
-                            <p>{answer}</p>
-                        </article>
-                    </li>
-                ))}
-            </ul>
-        </>
-    )
-}
+// export default function FAQPage({ faq }) {
+//     return (
+//         <>
+//             <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
+//             <h1>Alura Cases - Páginas de perguntas</h1>
+//             <Link href='/'>Ir para home</Link>
+//             <ul>
+//                 {faq.map(({ answer, question }) => (
+//                     <li key={question}>
+//                         <article>
+//                             <h2>{question}</h2>
+//                             <p>{answer}</p>
+//                         </article>
+//                     </li>
+//                 ))}
+//             </ul>
+//         </>
+//     )
+// }

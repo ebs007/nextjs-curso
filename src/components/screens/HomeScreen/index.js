@@ -1,6 +1,6 @@
-import Footer from '/home/erick/www/alura/nextjs-curso/src/components/pattens/Footer'
-import Link from '/home/erick/www/alura/nextjs-curso/src/components/pattens/Link'
-import { theme } from '/home/erick/www/alura/nextjs-curso/src/theme/theme'
+import Footer from '../../pattens/Footer'
+import Link from '../../pattens/Link'
+import { theme } from '../../../theme/theme'
 import {
     Image,
     Box,
@@ -8,7 +8,7 @@ import {
     Icon,
     Input,
     Button,
-} from '/home/erick/www/alura/nextjs-curso/src/theme/components'
+} from '../../../theme/components'
 import PageTitle from '../../pattens/PageTitle'
 
 const LOGO_ALURA_URL = '/assets/images/alura-logo.svg'

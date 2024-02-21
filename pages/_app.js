@@ -1,4 +1,4 @@
-import GlobalStyle from '/home/erick/www/alura/nextjs-curso/src/theme/GlobalStyle.js'
+import GlobalStyle from '../src/theme/GlobalStyle.js'
 
 function MyApp({ Component, pageProps }) {
     return (
